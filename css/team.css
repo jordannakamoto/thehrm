@@ -7,8 +7,8 @@
 }
 
 
-.team h1{ font-size: 18px; font-family: "Source Code Pro";}
-.team h2{ font-size: 16px; font-family: "Open Sans"; color: grey; font-weight: 100; line-height:1;}
+.team h1{ font-size: 18px; font-family: "Roboto";margin-top: 2em; margin-left: 1}
+.team h2{ font-size: 16px; font-family: "Open Sans"; color: grey; font-weight: 100; line-height:1;display: none}
 .team p{opacity:0; line-height: 1.5; font-size: 16px;padding-right: 20px;}
 
 /* ---- grid ---- */
@@ -42,7 +42,7 @@
   background: #fafafa;
   margin-bottom: 20px;
   padding:10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .team img{

@@ -1,4 +1,4 @@
-;(function () {
+(function () {
 	
 	'use strict';
 
@@ -24,21 +24,6 @@
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
-
-
-	var parallax = function() {
-
-		if ( !isMobile.any() ) {
-
-			$(window).stellar({
-				horizontalScrolling: false,
-				hideDistantElements: false, 
-				responsive: true
-			});
-			
-		}	
-	};
-
 	
 	var contentWayPoint = function() {
 		var i = 0;
@@ -80,7 +65,6 @@
 
 	
 	$(function(){
-		parallax();
 		contentWayPoint();
 	});
 

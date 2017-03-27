@@ -136,10 +136,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attached: fixed;
   height: 600px;
+  background: transparent;
   width: 100%;
   position: relative;
   z-index: 2;
@@ -147,6 +145,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-box-shadow: inset 0px -5px 11px -6px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px -5px 11px -6px rgba(0, 0, 0, 0.25);
 }
+
+
 @media screen and (max-width: 768px) {
   #header {
     height: 300px;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .section {
-  padding: 5em 0;
+  padding: 4.5em 0;
 }
 
 .works .work {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .works .work > a {
   position: relative;
-  overflow: hidden;
+ 
   display: block;
   outline: none !important;
 }
@@ -321,5 +321,4 @@ textarea.form-control {
 }
 
 .js .animate-box {
-  opacity: 0;
-}
+  opacity: 0;}
