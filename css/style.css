@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .navbar {
+  font-size: 12px;
   font-family: Roboto;
   background: white;
   border: none;
@@ -102,11 +103,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .navbar-nav {
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-left: 30px;
 }
 
 .navbar-right {
+  font-size: 16px;
   margin-top: 2.1em;
 }
 
@@ -116,18 +118,35 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .navbar-nav a{
-  color: #C7C7C7 !important;
+  
 }
 
-.navbar-nav a:hover:after{
-   border-bottom: 2px solid #9FC0DE;
-   bottom: 0;
-   content: "";
-   left: 20px;
-   position: absolute;
-   width: 20px;
+.navbar-nav a:hover{
+   color: #4DB4E4 !important;
 }
 
+.dropdown-list{
+  list-style: none;
+  padding: 0px 15px;
+  border-radius: 4px;
+  background: #fff;
+  color: grey;
+  box-shadow: 1px 8px 10px rgba(0,0,0, .2);
+  position: absolute;
+  left: -10px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all .4s ease;
+
+}
+
+.dropdown-list:hover{
+  transform: translateY(20px);
+  opacity: 1;
+}
+.dropdown-list li{
+    padding: 10px 20px ;
+}
 
 #logo {
   margin-top: .3em;
@@ -202,14 +221,14 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  width: 80%;
 }
 .works .work > a:hover img {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-  opacity: .0;
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 .inner {
@@ -243,7 +262,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 20px;
   padding-right: 20px;
 }
-.box img{
+.box.tile img{
   width: 60px;
   margin-bottom: 1em;
 }
@@ -260,12 +279,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #client_logos {
   padding: 20px;
   margin: auto;
-  margin-left: 150px;
+  margin-left: 200px;
   width: auto;
 }
 #client_logos img {
-   max-width: 100px;
-   max-height: 100px;
+   max-width: 80px;
+   max-height: 80px;
    margin-right: 10px;
    opacity: .5;
 }

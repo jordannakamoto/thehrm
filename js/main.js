@@ -68,5 +68,14 @@
 		contentWayPoint();
 	});
 
+	 $('.cs_slider').slick({
+	 	slidesToShow: 2,
+	 	arrows: false,
+	 	infinite: false
+  	});
+
+	$('#cs_button').click(function(){
+		  $('.cs_slider').slick('slickNext');
+		})
 
 }());

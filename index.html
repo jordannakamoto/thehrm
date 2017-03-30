@@ -37,6 +37,7 @@
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/slick.css">
 
 	<!-- team module -->
 	<link rel="stylesheet" href="css/team.css">
@@ -79,7 +80,7 @@
 		</nav>
 		<!-- END navbar -->
 		<div class="bio-photo">
-			<a href="index.html"><img src="images/teamphoto.jpg" alt="Team Photo"></a>
+			<img src="images/teamphoto.jpg" alt="Team Photo">
 		</div>
 	</div> 
 	<div id="main">
@@ -104,31 +105,32 @@
 
 		<!-- END .section -->
 
-		<div class="section works" style="margin-bottom: 2em;">
+		<div class="section works" style="padding-bottom: 0;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-12 section-heading">
 						<h2>Our Clients</h2>
 					</div>
 					<div class="col-md-8 col-sm-8 col-xs-12" style="margin-top: 1em;margin-left: -100px;">
-						<div class="row">	
+					<div id ="cs_button">
+								>
+							</div>
+						<div class="row cs_slider">	
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
 								<div style="width: 100px; height: 50px; position: absolute;bottom: 0;""></div>
-								<a class="image-popup" style="position:relative"><img src="images/img_1.jpg" alt="Cavallo Point" class="img-responsive img-rounded">
-								<div class="inner">
-									<h1> Cavallo Point </h1>
-									<h3 style="background: #35C076;"> Hospitality </h3>
-								</div>
+								<a class="image-popup" style="position:relative"><img src="images/postranch.PNG" alt="Cavallo Point" class="img-responsive img-rounded">
+								<div style="bottom: 40px;padding: 10px;left: 0; margin-left: auto;position: absolute;background: white; width: 160px; font-size: 14px;border-radius: 0px; right: 0;color: black ">Post Ranch Inn</div>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
 								<a class="image-popup"><img src="images/img_2.jpg" alt="Bright Computing" class="img-responsive img-rounded"></a>
-								<div class="inner">
-									<h1> Bright Computing </h1>
-									<h3 style="background: #3FB0E4;"> Data Technology </h3>
-								</div>
-
+								<div style="bottom: 40px;padding: 10px;left: 0; margin-left: auto;position: absolute;background: white; width: 160px; font-size: 14px;border-radius: 0px; right: 0;color: black ">Bright Computing</div>
 							</div> <!-- put flickity here -->
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a class="image-popup"><img src="images/education.jpeg" alt="ASCIP" class="img-responsive img-rounded"></a>
+								<div style="bottom: 40px;padding: 10px;left: 0; margin-left: auto;position: absolute;background: white; width: 160px; font-size: 14px;border-radius: 0px; right: 0;color: black ">ASCIP</div>
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -138,16 +140,17 @@
 		<!-- END .section -->
 
 		<div class="section services">
-				<div class="container">
+				<div class="container" ">
 							<div class="row">
 								<div id = "client_logos">
-								<img src="images/client-logos/yccd.png">
 								<img src="images/client-logos/sonoma_county.png">
 								<img src="images/client-logos/usens.png">
 								<img src="images/client-logos/circleci.png">
 								<img src="images/client-logos/miller_law.png">
 								<img src="images/client-logos/goodwill.png">
 								<img src="images/client-logos/luxe.png">
+								<img src="images/client-logos/dwell.png" style="padding: 10px;">
+								<img src="images/client-logos/cavallo.png">
 								</div>
 							</div>
 				</div>
@@ -155,7 +158,7 @@
 			<h1 style="font-family:'Work Sans';text-align: center;font-size: 28p; color:grey;padding-top: 1em;"> <br><br>It all starts with a relationship.<br> We believe that trust and HR go hand in hand.</h1>
 			<p style="font-family:'Work Sans'; text-align: center;width: 30%;margin: auto;margin-bottom: 2em;margin-top: 3em;">
 "Edna is always available to help us sort through HR issues, providing thoughtful, professional and practical advice. She approaches problems in the same way a business owner would--with a view to getting results."</p>
-			<h4 style="text-align: center; font-size: 12px;margin-left: 10em;">Martin Kupferman - Director of Team Development, Quantcast</h4>
+			<h4 style="text-align: center; color: grey;font-size: 12px;margin-left: 10em;">Martin Kupferman - Director of Team Development, Quantcast</h4>
 			</div>
 
 		</div>
@@ -163,60 +166,53 @@
 
 		<div class="section">
 			<div class="container" style="width: 1200px; padding: 60px 100px;border-radius: 15px;">
-				<div class="row">
+				<div class="row animate-box">
 					<div class="col-md-4">
-						<div class="box animate-box">
+						<div class="box tile">
 
-							<img src="images/icons/open-book.png">
-							<h1>HR Assesments</h1>
+							<h1>What We Do</h1>
 							<p>We'll help you understand and apply HR best practices while reviewing organizational and employee dynamics.</p>
+							<ul>
+								<li>Employee Development</li>
+								<li>HR Department Support</li>
+								<li>Onsite Workshops + Trainings</li>
+								<li>Recruiting</li>
+							</ul>
 
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="box animate-box">
+					<div class="col-md-8">
+						<div class="box">
 
-							<img src="images/icons/question.png">
-							<h1>Consulting</h1>
-							<p>Our experience and guidance can help support new HR Managers, get projects off to a good start, or rescue others that may have gone awry.</p>
-
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box animate-box">
-
-							<img src="images/icons/laptop.png">
-							<h1>Recruiting & Technology</h1>
-							<p>After learning the difficulties of staffing, we decided to develop our very own software, <a>TAM</a>, a tool that helps companies streamline their recruitment processes.</p>
-
+							<img src="images/bannerbg2.jpeg"width="600px">
+							
 						</div>
 					</div>
 				</div>
 
-				<div class="row" style="margin-top: 5em;">
+				<div class="row" style="margin-top: 7em;">
 					<div class="col-md-4">
-						<div class="box animate-box">
+						<div class="box tile animate-box">
 
 							<img src="images/icons/map.png">
-							<h1>Navigating HR Incidents</h1>
 							<p>We'll walk you through identifying, documentmenting, and navigating workplace issues to reach timely resolutions.</p>
 
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="box animate-box">
+						<div class="box tile animate-box">
 
 							<img src="images/icons/white-house.png">
-							<h1>Compliance</h1>
-							<p>We're experts on policies, codes, and handbooks. We will help you balance regulations with real-world situations.</p>
+
+							<p>We're experts on compliance, policies, codes, and handbooks. We will help you balance regulations with real-world situations.</p>
 
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="box animate-box">
+						<div class="box tile animate-box">
 
 							<img src="images/icons/party.png">
-							<h1>We Help Teams Succeed</h1>
+
 							<p>Most importantly, we want your organization to thrive and operate upon it's core values and philosophies.</p>
 
 						</div>
@@ -227,17 +223,15 @@
 		</div>
 
 		<!-- END .section -->
-
 		<div class="section">
 			<div class="container">
-
 				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12 section-heading" style="opacity: .6; transform:scale(.9);background: url(images/goldengate.JPG); height: 400px; background-size: cover; background-position: right;position: relative;">
-					<div style="bottom: 40px;padding: 10px;left: 0; margin-left: auto;position: absolute;background: white; width: 240px; font-size: 14px;border-radius: 0px; right: 0;color: black ">Marin County, California</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 section-heading" style="opacity: .6; transform:scale(.9);background: url(images/mastheadbg2.jpeg); height: 400px; background-size: cover; background-position: right;position: relative;">
+					<div style="bottom: 40px;padding: 10px;left: 0; margin-left: auto;position: absolute;background: white; width: 240px; font-size: 14px;border-radius: 0px; right: 0;color: black ">We're located in the San Fransisco Bay Area</div>
 					</div>
 					<div class="col-md-8 col-sm-8 col-xs-12" style="margin-top:2em;">
 					<h1 style="font-size: 20px;margin-left: 2em">Get in Touch!</h1>
-					<p style="width: 80%;margin: auto; margin-bottom: 3em;">We'd love to make a connection and learn more about your business. Just give us a call at our office: <b>1-855-254-1277</b></p>
+					<p style="width: 80%;margin: auto; margin-bottom: 3em;">We'd love to make a connection and learn more about your business. You can reach us at our office: <b>1-855-254-1277</b></p>
 						<div class="col-md-12">
 							<form style="transform:scale(.9)"action="#" autocomplete="off">
 								<div class="form-group">
@@ -397,6 +391,8 @@
 
 	<!-- Parallax -->
 	<script src="js/parallax.min.js"></script>
+	
+	<script src="js/slick.min.js"></script>
 
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
